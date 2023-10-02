@@ -1,0 +1,82 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background and font styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+    width: 100px;
+}
+
+.profile {
+    width: 30px;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner {
+    /* Add banner styles if needed */
+}
+
+/* Trending Now Page */
+.trending-now-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Movie List */
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie {
+    width: calc(33.33% - 20px); /* Adjust the width based on your layout */
+    text-align: center;
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-title {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Footer */
+.footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}

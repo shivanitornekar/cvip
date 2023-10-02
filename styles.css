@@ -1,0 +1,202 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+.logo {
+    width: 100px;
+}
+
+.profile {
+    width: 30px;
+    cursor: pointer;
+}
+
+/* Banner section */
+.banner {
+    position: relative;
+    height: 450px;
+    background: url('banner-background.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 70px 20px;
+}
+
+.banner-contents {
+    max-width: 800px;
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.banner-button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.banner-button:hover {
+    background-color: #ff0a16;
+}
+
+.banner-fade-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7), #000);
+}
+
+/* Section title */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+/* Add styles for Netflix Originals, Trending Now, Top Rated sections here */
+
+/* Footer */
+.footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media queries for responsiveness (adjust as needed) */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
+
+@media (max-width: 480px) {
+    /* Add more responsive styles for smaller screens */
+}
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background and font styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+    width: 100px;
+}
+
+.profile {
+    width: 30px;
+    cursor: pointer;
+}
+
+/* Banner section */
+.banner {
+    position: relative;
+    height: 450px;
+    background: url('banner-background.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 70px 20px;
+}
+
+.banner-contents {
+    max-width: 800px;
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.banner-button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.banner-button:hover {
+    background-color: #ff0a16;
+}
+
+.banner-fade-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7), #000);
+}
+
+/* Section title */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+/* Additional sections like Netflix Originals, Trending Now, and Top Rated */
+
+/* Footer */
+.footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
